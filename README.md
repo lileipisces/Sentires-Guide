@@ -10,7 +10,7 @@ The tool is very meaningful to the IR research community, as many research works
 
 ## Steps
 ![](https://github.com/lileipisces/Sentires-Guide/blob/master/folder-hierarchy.png)
-- the folder "lei" and the file "run_lei.sh" must be placed in the tool's folder named "English-Jar" shown above
+- place the folder "lei" and the file "run_lei.sh" in the tool's folder named "English-Jar" as shown above
 - modify "0.format.py", so that your datasets can be processed in the right format of the tool's input
 - modify "4.lexicon.linux" accordingly, as it contains absolute paths
 - run the commands one by one in "run_lei.sh" (do not run this script, otherwise it may throw memory error)
