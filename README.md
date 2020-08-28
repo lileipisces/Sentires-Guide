@@ -4,7 +4,7 @@ A quick guide to Sentires: Phrase-level Sentiment Analysis toolkit, SIGIR'14
 
 To obtain this tool, please follow the instructions at the bottom of this [page](http://yongfeng.me/code/).
 
-## Introduction
+## Motivation
 The tool is very meaningful to the IR research community, as many research works are built on top of its results. However, it may be difficult to obtain (feature, opinion, sentence, sentiment) quadruples to each product review, since it did not have such a function in the first place. Moreover, nowadays people are usually more familiar with Python rather than Java on which this tool was developed. Therefore, here I present our data processing steps in the following paper to help researchers quickly obtain the aforementioned quadruples from user reviews.
 > Lei Li, Yongfeng Zhang, Li Chen. Generate Neural Template Explanations for Recommendation. CIKM'20. \[[Paper](https://lileipisces.github.io/files/CIKM20-NETE-paper.pdf)\] \[[Code](https://github.com/lileipisces/NETE)\]
 
