@@ -9,7 +9,7 @@ The tool is very meaningful to the IR research community, as many research works
 > Lei Li, Yongfeng Zhang, Li Chen. Generate Neural Template Explanations for Recommendation. CIKM'20. \[[Paper](https://lileipisces.github.io/files/CIKM20-NETE-paper.pdf)\] \[[Code](https://github.com/lileipisces/NETE)\]
 
 ## Steps
-![](https://github.com/lileipisces/Sentires-Guide/README/blob/master/folder-hierarchy.png)
+![](https://github.com/lileipisces/Sentires-Guide/blob/master/folder-hierarchy.png)
 - the folder "lei" and the file "run_lei.sh" must be placed in the tool's folder named "English-Jar" shown above
 - modify "0.format.py", so that your datasets can be processed in the right format of the tool's input
 - modify "4.lexicon.linux" accordingly, as it contains absolute paths
