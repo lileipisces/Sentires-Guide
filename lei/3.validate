@@ -1,0 +1,9 @@
+validation.A.mapping.class=edu.thuir.sentires.buildin.STANPOSMapping
+validation.B.mapping.class=edu.thuir.sentires.buildin.STANPOSMapping
+validation.source.charset=UTF8
+validation.output.charset=UTF8
+
+validation.A.result=lei/intermediate/pos.1.txt
+validation.B.result=lei/intermediate/pos.2.txt
+validation.source=lei/intermediate/pre.txt
+validation.output=lei/intermediate/validate.txt

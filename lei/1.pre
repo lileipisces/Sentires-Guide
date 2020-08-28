@@ -1,0 +1,5 @@
+preprocessing.language=english
+preprocessing.raw.path=lei/input/record.per.row.txt
+preprocessing.raw.charset=UTF8
+preprocessing.selected.path=lei/intermediate/pre.txt
+preprocessing.selected.charset=UTF8

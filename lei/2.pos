@@ -1,0 +1,6 @@
+postagging.language=english
+postagging.select.path=lei/intermediate/pre.txt
+postagging.select.charset=UTF8
+postagging.pos.path=lei/intermediate/pos.1.txt
+postagging.pos.charset=UTF8
+postagging.model.file=res/english-bidirectional-distsim.tagger
