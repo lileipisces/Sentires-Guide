@@ -11,7 +11,7 @@ The tool is very meaningful to the IR community, as many research works are buil
 ## Steps
 ![](folder-hierarchy.png)
 - Place the folder "lei" and the file "run_lei.sh" in the tool's folder named "English-Jar" as shown above
-- Modify "0.format.py", including the keys (line 15, 18, 22, 24, 26) and how you iterate over each review (line 12), so that your datasets can be processed in the right format of the tool's input. Remove line 14-17, if your dataset has no summary or tip, which is meant to include as much textual data as possible.
+- Modify "0.format.py", including data path (line 5), the keys (line 12, 13, 16, 20, 21, 23) and how you load the data and iterate over each review (line 9), so that your datasets can be processed in the right format of the tool's input. Remove line 12-15, if your dataset has no summary or tip, which is meant to include as much textual data as possible.
 - Update the absolute paths (line 65, 78, 94, 95) in "4.lexicon.linux" accordingly.
 - Run the commands one by one in "run_lei.sh" (do not run this script, otherwise it may throw memory error)
 

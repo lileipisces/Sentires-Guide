@@ -52,5 +52,5 @@ keys:
 'item',
 'rating',
 'text',
-'sentence' (feature, adj, sent, score)
+'sentence' a list of (feature, adj, sent, score)
 '''

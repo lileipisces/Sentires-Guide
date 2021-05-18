@@ -1,15 +1,13 @@
-from pymongo import MongoClient
 import pickle
+import gzip
 import re
 
-client = MongoClient()
-db = client['Amazon']
-mongoDB = db['Movies']
-
+raw_path = 'input/reviews_Musical_Instruments_5.json.gz'  # path to load raw reviews
 writer_1 = open('input/record.per.row.txt', 'w', encoding='utf-8')
 product2text_list = {}
 product2json = {}
-for review in mongoDB.find():
+for line in gzip.open(raw_path, 'r'):
+    review = eval(line)
     text = ''
     if 'summary' in review:
         summary = review['summary']
@@ -20,7 +18,6 @@ for review in mongoDB.find():
     writer_1.write('<DOC>\n{}\n</DOC>\n'.format(text))
 
     item_id = review['asin']
-
     json_doc = {'user': review['reviewerID'],
                 'item': item_id,
                 'rating': int(review['overall']),
