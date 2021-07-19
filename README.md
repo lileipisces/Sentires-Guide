@@ -2,7 +2,7 @@
 A quick guide to Sentires: Phrase-level Sentiment Analysis toolkit, SIGIR'14
 > Zhang, Yongfeng, et al. [Do users rate or review? boost phrase-level sentiment labeling with review-level sentiment classification](http://yongfeng.me/attach/bps-zhang.pdf). Proceedings of the 37th international ACM SIGIR conference on Research & development in information retrieval. ACM, 2014.
 
-To obtain this tool, please follow the instructions at the bottom of this [page](http://yongfeng.me/code/).
+To obtain this tool, please check [Sentires](https://github.com/evison/Sentires).
 
 ## Motivation
 The tool is very meaningful to the IR community, as many research works are built on top of its results. However, it may be difficult to obtain (feature, opinion, sentence, sentiment) quadruples to each product review, since it did not have such a function in the first place. Moreover, nowadays people are usually more familiar with Python rather than Java on which this tool was developed. Therefore, here we present our data processing steps (mostly in Python) in the following paper to help researchers quickly obtain the aforementioned quadruples from user reviews.
