@@ -29,3 +29,8 @@ You will find a file "reviews.pickle" in [lei/output/](lei/output/), which is a 
 'text',
 'sentence' # a list of tuples and each tuple looks like (feature, adjective, sentence, score)
 ```
+
+## Datasets to [download](https://drive.google.com/drive/folders/1z90ExLiEc1ZTyPir5qxbXxQOWslsspIH?usp=sharing)
+- TripAdvisor Hong Kong
+- Amazon Movies & TV
+- Yelp 2019
