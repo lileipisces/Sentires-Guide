@@ -15,7 +15,7 @@ The tool is very meaningful to the IR community, as many research works are buil
 - Place the folder [lei](lei/) in the tool's folder "English-Jar" as shown above.
 - Modify [0.format.py](lei/0.format.py), including data path (line 5), the keys (line 12, 13, 16, 20, 21, 23) and how you load the data and iterate over each review (line 9), so that your datasets can be processed in the right format of the tool's input. Remove line 12-15, if your dataset has no summary or tip, which is meant to include as much textual data as possible.
 - Update the absolute paths (line 65, 78, 94, 95) in [4.lexicon.linux](lei/4.lexicon.linux) accordingly.
-- Run the commands in [run_lei.sh](lei/run_lei.sh) one by one (do not run this script, otherwise it may throw errors)
+- Run the commands in [run_lei.sh](run_lei.sh) one by one (do not run this script, otherwise it may throw errors)
 
 ## Friendly reminder
 Memory error might be fixed by specifying the memory allocation of JVM, e.g., ```java -jar -Xmx200G thuir-sentires.jar -t lexicon -c lei/4.lexicon.linux >> log.txt```
