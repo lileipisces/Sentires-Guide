@@ -34,3 +34,25 @@ You will find a file "reviews.pickle" in [lei/output/](lei/output/), which is a 
 - TripAdvisor Hong Kong
 - Amazon Movies & TV
 - Yelp 2019
+
+## Citations
+```
+@inproceedings{CIKM20-NETE,
+	title={Generate Neural Template Explanations for Recommendation},
+	author={Li, Lei and Zhang, Yongfeng and Chen, Li},
+	booktitle={CIKM},
+	year={2020}
+}
+@inproceedings{WWW20-NETE,
+	title={Towards Controllable Explanation Generation for Recommender Systems via Neural Template},
+	author={Li, Lei and Chen, Li and Zhang, Yongfeng},
+	booktitle={WWW Demo},
+	year={2020}
+}
+@inproceedings{SIGIR14-Sentires,
+	title={Do users rate or review? Boost phrase-level sentiment labeling with review-level sentiment classification},
+	author={Zhang, Yongfeng and Zhang, Haochen and Zhang, Min and Liu, Yiqun and Ma, Shaoping},
+	booktitle={SIGIR},
+	year={2014}
+}
+```
