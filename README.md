@@ -27,7 +27,7 @@ You will find a file "reviews.pickle" in [lei/output/](lei/output/), which is a 
 'item',
 'rating',
 'text',
-'sentence' # a list of tuples and each tuple looks like (feature, adjective, sentence, score)
+'sentence' # a list of tuples and each tuple looks like (feature, adjective, sentence, score). It could be empty, because the tool may fail to identify feature-opinion pairs from the review.
 ```
 
 ## Datasets to [download](https://drive.google.com/drive/folders/1z90ExLiEc1ZTyPir5qxbXxQOWslsspIH?usp=sharing)
