@@ -18,7 +18,8 @@ The tool is very meaningful to the IR community, as many research works are buil
 - Run the commands in [run_lei.sh](run_lei.sh) one by one (do not run this script, otherwise it may throw errors)
 
 ## Friendly reminder
-Memory error might be fixed by specifying the memory allocation of JVM, e.g., ```java -jar -Xmx200G thuir-sentires.jar -t lexicon -c lei/4.lexicon.linux >> log.txt```
+- Memory error might be fixed by specifying the memory allocation of JVM, e.g., ```java -jar -Xmx200G thuir-sentires.jar -t lexicon -c lei/4.lexicon.linux >> log.txt```
+- The POS step could really take a lot of time, e.g., days.
 
 ## Results
 You will find a file "reviews.pickle" in [lei/output/](lei/output/), which is a python list, where each element is a python dict with the following keys:
